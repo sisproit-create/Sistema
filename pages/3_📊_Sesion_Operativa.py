@@ -35,7 +35,7 @@ if not (inicio <= hora_actual <= fin):
 
 st.markdown("### 📊 Estado de Cuenta")
 st.write(f"Capital actual: **${capital_actual:.2f}**")
-st.write(f"Riesgo diario permitido (2%): **${riesgo_diario_max:.2f}**")
+st.write(f"Riesgo diario permitido (6%): **${riesgo_diario_max:.2f}**")
 
 # ==============================
 # FORMULARIO OPERACIÓN
